@@ -1,5 +1,3 @@
-// interfaces/index.ts
-
 export interface PropertyLocationProps {
   street: string;
   city: string;
