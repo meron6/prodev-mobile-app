@@ -1,0 +1,44 @@
+/* global.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set default font family */
+body, text {
+  font-family: 'System';
+}
+
+/* Background defaults */
+.app-background {
+  background-color: #ffffff;
+}
+
+/* Text defaults */
+.text-base {
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Utility classes for common spacing */
+.p-4 {
+  padding: 16px;
+}
+
+.m-4 {
+  margin: 16px;
+}
+
+/* Example class for rounded corners */
+.rounded-md {
+  border-radius: 12px;
+}
+
+.rounded-lg {
+  border-radius: 36px;
+}
+
+/* You can extend this with more custom global styles if needed */
