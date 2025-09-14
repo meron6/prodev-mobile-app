@@ -7,7 +7,7 @@ export default function HomeLayout() {
     <Tabs
       screenOptions={{
         headerShown: false,
-        tabBarActiveTintColor: "#2563eb", // blue-600
+        tabBarActiveTintColor: "#2563eb", // active blue
         tabBarInactiveTintColor: "gray",
       }}
     >
@@ -59,4 +59,3 @@ export default function HomeLayout() {
     </Tabs>
   );
 }
-
