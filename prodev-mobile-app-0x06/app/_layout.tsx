@@ -1,6 +1,6 @@
 // app/_layout.tsx
-import { Stack } from "expo-router";
 import { SafeAreaProvider } from "react-native-safe-area-context";
+import { Stack } from "expo-router";
 import "../styles/global.css";
 
 export default function RootLayout() {
